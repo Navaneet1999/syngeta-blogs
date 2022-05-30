@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+var timeout = require('connect-timeout');
 const Data = require('../models/blog.model')
 
 //to post the all the data
